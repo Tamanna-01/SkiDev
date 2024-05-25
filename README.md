@@ -1,2 +1,2 @@
 # SkiDev
-It is a skill development website. The platform allows users to search for various skills and provides comprehensive roadmaps, resources, and instructional videos to aid their development.
+It is a skill development website. The platform allows users to search for various skills and provides comprehensive roadmaps, resources, and instructional videos to aid their development. Users can also join or search for communities of like-minded individuals to collaborate and receive support. Additionally, a chatbot is available to assist users with their queries and provide information related to skills and learning paths.
