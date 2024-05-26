@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Search Results | Skill Development</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="trendingStyles.css">
     <link rel="stylesheet" href="homepageStyle.css">
     <link rel="stylesheet" href="searchStyle.css">
 </head>
@@ -26,36 +27,24 @@
             <input type="text" id="searchInput" placeholder="Search for the topic...">
             <button id="searchButton"><i class="fa-solid fa-magnifying-glass"></i></button>
         </div>
-        <div class="search-results" id="searchResults">
-            <div class="result-section" id="roadmap">
-                <h2>Roadmap</h2>
-                <img src="images/roadmap.png" alt="Roadmap">
+        <section id="trending" class="trending-section">
+            <h1>Trending Skills</h1>
+            <div class="card-container">
+                <div class="card">
+                    <h2>Skill 1</h2>
+                    <p>Description of Skill 1</p>
+                </div>
+                <div class="card">
+                    <h2>Skill 2</h2>
+                    <p>Description of Skill 2</p>
+                </div>
+                <div class="card">
+                    <h2>Skill 3</h2>
+                    <p>Description of Skill 3</p>
+                </div>
+                <!-- Add more cards as needed -->
             </div>
-            <div class="result-section" id="videos">
-                <h2>Related Videos</h2>
-                <ul>
-                    <li>Video 1</li>
-                    <li>Video 2</li>
-                    <li>Video 3</li>
-                </ul>
-            </div>
-            <div class="result-section" id="books">
-                <h2>Related Books</h2>
-                <ul>
-                    <li>Book 1</li>
-                    <li>Book 2</li>
-                    <li>Book 3</li>
-                </ul>
-            </div>
-            <div class="result-section" id="courses">
-                <h2>Related Courses</h2>
-                <ul>
-                    <li>Course 1</li>
-                    <li>Course 2</li>
-                    <li>Course 3</li>
-                </ul>
-            </div>
-        </div>
+        </section>
     </main>
     <div class="chatbot-icon" id="chatbotIcon">
         <i class="fa-solid fa-comment chat-icon"></i>
